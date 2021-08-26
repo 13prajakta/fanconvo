@@ -1,6 +1,7 @@
 $black: #000;
 $white: #fff;
 $green: #00e67f;
+$back:#292929;
 
 .background {
   background-color: $black;
@@ -14,7 +15,7 @@ $green: #00e67f;
     width: 25%;
   }
   .logins {
-    color: #fff;
+    color: $white;
   }
   .anchore {
     .nav-item {
@@ -40,7 +41,7 @@ $green: #00e67f;
     }
   }
   .main-form {
-    background-color: #292929;
+    background-color: $back;
     margin: 30px 0 0 0;
     padding: 20px;
     border-radius: 20px;
@@ -62,7 +63,7 @@ $green: #00e67f;
   }
   .form-control {
     border: 2px solid $green !important;
-    background: #292929;
+    background: $back;
     border-radius: 30px;
     width: 60%;
     margin: 0 auto;
